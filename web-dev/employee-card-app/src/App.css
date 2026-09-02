@@ -182,3 +182,40 @@
     border-right-color: var(--border);
   }
 }
+.student-form {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.student-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.student-form button {
+  padding: 8px 15px;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.student-table th, .student-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.student-table th {
+  background: #f0f0f0;
+}
+

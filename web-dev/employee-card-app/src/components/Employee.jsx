@@ -12,4 +12,5 @@ function Employee({ name, id, department, designation, salary }) {
   );
 }
 
+
 export default Employee;
