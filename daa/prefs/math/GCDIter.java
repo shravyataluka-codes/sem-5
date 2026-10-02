@@ -1,0 +1,31 @@
+/*
+Program to find the GCD/HCF of 2 positive values using Iteration
+
+Sample Input and Output:
+input=7 49
+output=7
+
+input=456 123
+output=3
+
+*/
+import java.util.*;
+class GCDIter{
+    static int gcd(int a,int b){
+        int val = 1;
+        int max = Math.max(a,b);
+        int min = Math.min(a,b);
+        for(int i= 2;i<=min;i++){
+            if(a%i==0 && b%i==0){
+                val = i;
+            }
+        }
+        return val;
+    }
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+        int a = s.nextInt();
+        int b = s.nextInt();
+        System.out.println(gcd(a,b));
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "java.project.sourcePaths": [
+    "daa/prefs/arrays/basics",
+    "daa/prefs/arrays/divide-and-conquer",
+    "daa/prefs/arrays/problems",
+    "daa/prefs/arrays/searching",
+    "daa/prefs/arrays/sorting",
+    "daa/prefs/dynamic-programming",
+    "daa/prefs/graphs/grid-search",
+    "daa/prefs/graphs/representation",
+    "daa/prefs/graphs/shortest-path",
+    "daa/prefs/graphs/spanning-trees",
+    "daa/prefs/graphs/traversal",
+    "daa/prefs/greedy",
+    "daa/prefs/intervals",
+    "daa/prefs/math",
+    "daa/prefs/matrices",
+    "daa/prefs/strings",
+    "daa/prefs/trees"
+  ]
+}
