@@ -1,6 +1,6 @@
 # DAA Practice Programs
 
-This folder contains 67 Java practice programs grouped by topic. Use the folder guide to find a problem, then follow the study route below to build concepts in order. Existing Java source files are listed as they are; this README does not imply that every exercise is a complete or tested solution.
+This folder contains 72 Java practice programs grouped by topic. Use the folder guide to find a problem, then follow the study route below to build concepts in order. Existing Java source files are listed as they are; this README does not imply that every exercise is a complete or tested solution.
 
 ## Folder Guide and File Inventory
 
@@ -89,13 +89,14 @@ Binary-tree traversal and hierarchy problems.
 - [BinaryLevelOrder.java](trees/BinaryLevelOrder.java) - Level-order traversal
 - [LonelyNodes.java](trees/LonelyNodes.java) - Find nodes without siblings
 - [MaxDepthDFS.java](trees/MaxDepthDFS.java) - Find hierarchy depth using DFS
+- [BoundaryOfBinaryTree.java](trees/BoundaryOfBinaryTree.java) - Binary-tree boundary traversal
 
 ### `graphs/`
 Graph representations, traversals, grid searches, spanning trees, and shortest paths.
 
 - `representation/` - [AdjacencyMatrix.java](graphs/representation/AdjacencyMatrix.java) and [AdjacencyList.java](graphs/representation/AdjacencyList.java)
 - `traversal/` - [BFSFirst.java](graphs/traversal/BFSFirst.java), [BFS.java](graphs/traversal/BFS.java), [DFSFirst.java](graphs/traversal/DFSFirst.java), [DFS.java](graphs/traversal/DFS.java)
-- `grid-search/` - [FloodFillLC.java](graphs/grid-search/FloodFillLC.java), [TotalNumberOfIslands.java](graphs/grid-search/TotalNumberOfIslands.java), [MaxArea_BFS.java](graphs/grid-search/MaxArea_BFS.java)
+- `grid-search/` - [FloodFillLC.java](graphs/grid-search/FloodFillLC.java), [TotalNumberOfIslands.java](graphs/grid-search/TotalNumberOfIslands.java), [NumberOfIslandsDFS.java](graphs/grid-search/NumberOfIslandsDFS.java), [MaxArea_BFS.java](graphs/grid-search/MaxArea_BFS.java), [MazArea_DFS.java](graphs/grid-search/MazArea_DFS.java), [Maze.java](graphs/grid-search/Maze.java), [Maze_Using_stack.java](graphs/grid-search/Maze_Using_stack.java)
 - `spanning-trees/` - [KruskalsAlgorithm.java](graphs/spanning-trees/KruskalsAlgorithm.java), [PrimsAlgorithm.java](graphs/spanning-trees/PrimsAlgorithm.java)
 - `shortest-path/` - [ShortestPaths.java](graphs/shortest-path/ShortestPaths.java)
 
